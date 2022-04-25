@@ -1,0 +1,22 @@
+{
+  "name": "beni-contentful-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/index.js",
+  "type": "module",
+  "scripts": {
+    "get-unlinked-variants": "node ./scripts/get-unlinked-variants.js",
+    "delete-unlinked-variants": "node ./scripts/delete-unlinked-variants.js",
+    "get-unlinked-assets": "node ./scripts/get-unlinked-assets.js",
+    "delete-unlinked-assets": "node ./scripts/delete-unlinked-assets.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bottleneck": "^2.19.5",
+    "contentful": "^9.1.22",
+    "contentful-management": "^9.4.0",
+    "dotenv": "^10.0.0",
+    "ora": "^6.1.0"
+  }
+}
