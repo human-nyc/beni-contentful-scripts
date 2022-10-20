@@ -5,7 +5,7 @@ Starter package for creating node cli scripts. This is helpful for creating quic
 # Installation
 
 ```
-git clone https://github.com/celsowhite/node-cli-starter.git
+git clone https://github.com/human-nyc/beni-contentful-scripts.git
 cd node-cli-starter
 mv .env.sample .env
 npm install
